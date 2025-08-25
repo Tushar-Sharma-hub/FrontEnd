@@ -1,0 +1,17 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 0 auto; /* Center horizontally */
+    transition: 
+        margin 3s ease,
+        border-radius 3s ease,
+        background-color 3s ease;
+}
+
+div:hover {
+    margin: 350px auto; /* Drop down smoothly */
+    background-color: yellow;
+    border-radius: 50%; /* Smooth circle animation */
+}

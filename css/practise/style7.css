@@ -1,0 +1,39 @@
+#outer {
+      height: 200px;
+      width: 200px;
+      border: 2px solid black;
+      border-radius: 50%;
+      background-color: yellow;
+      position: relative; /* for absolute children */
+      margin: 50px auto; /* center on page */
+    }
+
+    .eye {
+      height: 30px;
+      width: 30px;
+      border: 2px solid black;
+      border-radius: 50%;
+      background-color: black;
+      position: absolute;
+      top: 50px;
+    }
+
+    #lefteye {
+      left: 50px;
+    }
+
+    #righteye {
+      right: 50px;
+    }
+
+    #mouth {
+      height: 40px;
+      width: 100px;
+      border: 2px solid black;
+      border-radius: 0 0 50px 50px;
+      background-color: black;
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+    }

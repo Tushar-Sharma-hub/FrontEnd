@@ -1,0 +1,39 @@
+h1{ /* All h1 will have this styling. */
+    color:red;
+}
+#login{ /* ID selector for login button */
+    background-color: white;
+}
+#signup{
+    background-color: red;
+    color: white;
+}
+.upvote{ /* Class selector for upvote button */
+    background-color: green;
+    color: white;
+}
+.upvote + button{
+    background-color: blue;
+    color: white;
+}
+
+input[type="text"]{
+    color:green;
+}
+input[type="password"]{
+    color: red;
+}
+input[type]{
+    background-color: antiquewhite;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration: underline;
+}
+p:active{
+    background-color: yellow;
+    color: black;
+} 

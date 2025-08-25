@@ -1,0 +1,12 @@
+div{
+    height: 500px;
+    width: 500px;
+    margin: 0 auto; /* Centers the div horizontally */
+    background-image: url("https://sanskarsavvy.com/wp-content/uploads/2024/07/Karan-aujla-biography-Sanksar-Savvy-music-career-punjabi-music-global-impact-ikky-collaborations-karan-aujla-apple-music-up-next-Sanksar-Savvy-punjabi-hip-hop-blend-Karan-Auijla.jpg");
+    background-size: contain; /* Adjusts the size of the background image to fit the div */
+    /* background-size: cover; Ensures the background image covers the entire div */
+    /* background-size: auto; Keeps the original size of the background image */
+    color: red;
+    font-size: 30px;
+    text-align: center; /* Centers the text inside the div */
+}

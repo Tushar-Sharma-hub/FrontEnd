@@ -1,0 +1,34 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%; /* Makes the div a circle */
+    display: inline-block; /* Places the divs in a single line */
+    margin: 10px; /* Optional: Adds space between the circles */
+}
+#static{
+    background-color: yellow;
+    position: static; /*The position will not change if we even use top,left,etc.*/
+    top: 100px;
+    left: 100px;
+}
+#Relative{
+    background-color: yellow; /*For relative there will be space created after position change.*/
+    position: relative; /*The position will change from the current/relative position*/
+    top: 100px;
+    left: 100px;
+}
+#Absolute{
+    background-color: yellow; /*For absolute there will be no space created after position change.*/
+    position: absolute; /*The position will change respect to the page not to the current position*/
+    top: 100px;
+    left: 100px;
+}
+#Fixed{
+    text-align: center;
+    background-color: yellow;
+    position: fixed;
+    top: 150px;
+    left: 100px;
+}
