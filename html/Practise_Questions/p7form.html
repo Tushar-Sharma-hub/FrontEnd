@@ -1,0 +1,40 @@
+<!-- 
+  Question:
+  Recreate the following form using suitable HTML elements and input types.
+  The form should include:
+  - Two input fields for First Name and Last Name
+  - A dropdown menu to select gender (e.g., Male, Female)
+  - A checkbox for agreeing to terms of service with label "Yes, I agree"
+  - A submit button labeled "Register"
+-->
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1><b>Registration Form</b></h1>
+    <form action="/server">
+        <div>
+            <label for="fn"></label>
+            <input type="text" id="fn" name="fn" placeholder="First Name">
+            <label for="ln"></label>
+            <input type="text" id="ln" name="ln" placeholder="Last Name">
+        </div>
+        <div>
+            Please select gender
+            <select name="gen" id="gen">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <div>
+            Do you agree with our terms and conditions.
+            <input type="checkbox" id="terms" name="terms">
+        </div>
+        <button>Register</button>
+    </form>
+  </body>
+  </html>
